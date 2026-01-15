@@ -1,4 +1,4 @@
-WITH raw_listings AS(
+WITH raw_listings AS (
     SELECT * FROM AIRBNB.RAW.RAW_LISTINGS
 )
 
