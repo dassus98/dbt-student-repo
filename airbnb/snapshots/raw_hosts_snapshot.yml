@@ -3,6 +3,6 @@ snapshots:
     relation: source('airbnb', 'hosts')
     config:
       unique_key: id
-      updated_at: updated_at
       strategy: timestamp
+      updated_at: updated_at
       hard_deletes: invalidate
